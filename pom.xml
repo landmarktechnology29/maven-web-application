@@ -93,6 +93,8 @@
 		
 	</dependencies>
 	<distributionManagement>
+		http://18.117.81.134:8081/repository/Tesla-fe-releases/
+		http://18.117.81.134:8081/repository/Tesla-fe-snapshot/
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
