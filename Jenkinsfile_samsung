@@ -24,6 +24,7 @@ stage('6approvalGate'){
     }
 }
 stage('7deploy2Prod'){
+sh "sleep50"
     deploy adapters: [tomcat9(credentialsId: 'tomcatcredential', path: '', url: 'http://3.16.169.152:8080/')], contextPath: null, war: 'target/*'
     }
 stage('8emailNotification'){
