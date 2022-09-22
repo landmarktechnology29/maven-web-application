@@ -7,7 +7,6 @@ node{
     sh "${mavenHome}/bin/mvn clean package"
     //bat "${mavenHome}/bin/mvn clean package"
   }
-  /*
   stage('3codeQuality'){
     sh "${mavenHome}/bin/mvn sonar:sonar"
   }
@@ -32,5 +31,4 @@ stage('8emailNotification'){
 Please check the build status
 Landmark Technologies''', recipientProviders: [buildUser(), contributor(), upstreamDevelopers(), brokenTestsSuspects()], subject: 'Build Status', to: 'samsungappp@gmail.com'
     }
-    */
 }
