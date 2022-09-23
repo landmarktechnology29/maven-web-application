@@ -17,6 +17,7 @@ pipeline{
         sh "mvn clean package"
       }
     }
+    /*
     stage('4codeQuality'){
     steps{
         sh "echo 'Perfoming CodeQualityAnalysis' "
@@ -45,5 +46,6 @@ emailext body: 'Good job team', recipientProviders: [buildUser(), developers()],
 emailext body: 'Good job team', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'fintechapp2@gmail.com'
     }
   }  
+  */
 }
 }
