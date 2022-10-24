@@ -97,7 +97,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.117.88.97:8081/repository/samsung-fe-releases/</url>
+	      <url>http://34.228.116.70:7200/repository/ebay-latest-snapshot/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
