@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.19.239:8081/repository/ebay-latest-snapshot/</url>
+	      <url>http://3.143.226.222:8081/repository/2023deploy-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.90.234.224:5252/repository/ebay-bts-CI/</url>
+	      <url>http://3.143.226.222:8081/repository/2023-snapshotdeploy/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
